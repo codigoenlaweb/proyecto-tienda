@@ -1,0 +1,80 @@
+.viewproduct_section{
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.viewproduct_img{
+    width: 100%;
+}
+
+.viewproduct_sectiondiv1{
+    width: 40%;
+}
+
+.viewproduct_sectiondiv2{
+    width: 40%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.viewproduct_description{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.viewproduct_price{
+    margin-top: 18px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+
+.viewproduct_offer{
+    margin-top: 3px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+
+.button-black{
+    margin-top: 18px;
+    width: 180px;
+    height: 30px;
+    color: white;
+    background-color: #222;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px rgb(0, 0, 0), 2px 2px 1px rgb(0, 0, 0), 3px 3px 1px rgb(0, 0, 0);
+}
+
+.button-black:hover{
+    background-color: rgb(46, 46, 46);
+}
+
+.button-black:active{
+    box-shadow: 0px 0px 4px #000000 inset, 0px 0px 6px #000000 inset, 0px 0px 8px #000000 inset;
+    transform: translate(3px, 3px);
+    color: #ccc;
+}
+
+.viewproduct_cant{
+    margin-top: 10px;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    font-size: 16px;
+    border: 2px solid #222;
+    border-radius: 3px;
+}
+
+.viewproduct_cant:focus{
+    border: 2px solid #222;
+    border-radius: 3px;
+}
+
+.viewproduct_label{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}

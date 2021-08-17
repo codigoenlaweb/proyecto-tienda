@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 23% 77%;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer';
+    width: 94%;
+    margin: 0px auto;
+    background-image: url(../img/bg.png);
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14), 0 3px 3px -2px rgba(0,0,0,0.12), 0 1px 8px 0 rgba(0,0,0,0.20);
+}
+
+.header{
+    grid-area: header;
+}
+
+.main{
+    grid-area: main;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.footer{
+    grid-area: footer;
+}

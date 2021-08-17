@@ -1,0 +1,77 @@
+.body_registration{
+    display: grid;
+    grid-template-columns: 100%;
+    background-image: url(../img/bg.png);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    width: 94%;
+    margin: 0px auto;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14), 0 3px 3px -2px rgba(0,0,0,0.12), 0 1px 8px 0 rgba(0,0,0,0.20);
+}
+
+.main_registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.registration_from{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 64%;
+    padding: 10px 0px 26px 0px;
+    margin-top: 10px;
+}
+
+.registration_from-label{
+    font-size: 20px;
+    margin: 10px 0px 4px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.registration_from-input{
+    width: 75%;
+    height: 20px;
+    font-size: 16px;
+}
+
+.alert_error{
+    background-color: red;
+    padding: 4px 16px 4px 16px;
+    border-left: 1.9px solid #222;
+    border-right: 1.9px solid #222;
+    border-bottom: 1.9px solid #222;
+    border-radius: 0px 0px 3px 3px;
+    text-align: center;
+    width: 48%;
+    font-weight: bold;
+}
+
+.alert_error__modifique{
+    border-top: 1.9px solid #222;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.alert_ok{
+    background-color: green;
+    width: 75%;
+}
+
+.alert_error__modifique2{
+    width: 55%;
+    border-top: 1.9px solid #222;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.mt{
+    margin-top: 10px;
+}

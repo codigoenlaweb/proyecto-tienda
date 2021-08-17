@@ -1,0 +1,84 @@
+.aside{
+    background-color: #F0F0F0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 14px;
+    border-right: 3px solid #ccc;
+    border-radius: 2px;
+
+}
+
+.aside_h4{
+    width: 75%;
+    margin: 20px 0px 14px 0px;
+    font-size: 1.2em;
+    background-color: #E1E1E1;
+    border-bottom: 4px solid #01B1EA;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.aside_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.aside_form-label{
+    margin: 6px 0px 2px 0px;
+    font-size: 18px;
+}
+
+.aside_form-input{
+    width: 75%;
+}
+
+.button{
+    margin-top: 14px;
+    width: 80px;
+    height: 25px;
+    background-color: #01B1EA;
+    border: 1px solid #0080aa;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #0080aa, 2px 2px 1px #0080aa, 3px 3px 1px #0080aa;
+    transition: 0.3s background;
+}
+
+.button:active{
+    background-color: #00a2d6;
+    box-shadow: 0px 0px 4px #00698b inset, 0px 0px 6px #00698b inset, 0px 0px 8px #00698b inset;
+    transform: translate(3px, 3px);
+}
+
+.button:hover{
+    background-color: #00a2d6;
+}
+
+.aside_ul{
+    width: 75%;
+    margin-top: 10px;
+}
+
+.aside_ul-li{
+    list-style: none;
+    margin-top: 3px;
+}
+
+.aside_ul-a{
+    text-decoration: none;
+    color: #01B1EA;
+    transition: all 0.4s;
+    font-size: 17px;
+}
+
+.aside_ul-a:hover{
+    color: #0080aa;
+    font-size: 18px;
+    text-shadow: 0px 0px 3px #01B1EA;
+}
+
+
